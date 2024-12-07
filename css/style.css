@@ -95,6 +95,10 @@
     display: none;
 }
 
+.burguer_activate{
+    display: flex;   
+}
+
 .nav__link {
     border-radius: 70px;
     display: flex;

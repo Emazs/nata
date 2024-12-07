@@ -28,7 +28,7 @@ const Burguer_nav = document.querySelector('.Burguer_nav')
 const nav = document.querySelector('.nav')
 
 button.addEventListener('click', () => {
-    Burguer_nav.style.display = 'flex'
+    Burguer_nav.classList.toggle('burguer_activate')
 })
 
 Burguer_nav.addEventListener('click', () => {
