@@ -30,6 +30,7 @@ const header = document.querySelector('.header')
 button.addEventListener('click', () => {
     const scrollY = window.scrollY; // Guarda la posición actual del scroll
     document.body.style.position = 'fixed';
+    document.body.style.width = '-webkit-fill-available';
     document.body.style.top = `-${0}px`;
 
     header.style.display = 'none'
@@ -39,9 +40,10 @@ button.addEventListener('click', () => {
 Burguer_nav.addEventListener('click', () => {
     document.body.style.position = '';
     document.body.style.top = '';
-    window.scrollTo(0, parseInt(scrollY || '0'));
+    window.scrollTo(0, parseInt('0'));
 
 
+    document.body.style.width = 'auto';
     header.style.display = 'flex'
     Burguer_nav.style.display = 'none'
 })
