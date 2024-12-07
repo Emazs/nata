@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link fonts Plaster-brand -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Plaster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Link Fonts Raleway -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Link css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Portafolio</title>
+</head>
+
+<body>
+  <!--Burguer-->
+
+  <div class="Burguer_nav">
+    <a href="#Contact" class="Burguer_nav__link">Contacto</a>
+    <a href="#About" class="Burguer_nav__link">Sobre mi</a>
+    <a href="#Projects" class=" Burguer_nav__link-nav__link--dark">Proyectos</a>
+  </div>
+
+  <!--Burguer-->
+  <header class="header">
+    <a href="#Home" class="brand">N</a>
+    <nav class="nav">
+      <a href="#Contact" class="nav__link">Contacto</a>
+      <a href="#About" class="nav__link">Sobre mi</a>
+      <a href="#Projects" class="nav__link-nav__link--dark">Proyectos</a>
+    </nav>
+    <img src="./Imagenes/menu.png" alt="Icono con forma de hambuerguesa" class="burguer">
+  </header>
+  <main class="main">
+    <section id="Home" class="home">
+      <div class="home__welcome">
+        <h1 class="welcome__title">Explora mis ideas</h1>
+        <h2 class="welcome__subtitle">Bienvenid@ a mi portafolio</h2>
+      </div>
+      <div class="home__button">
+        <h2 class="button__text">¡Te invito a explorar!</h2>
+      </div>
+    </section>
+    <section id="About" class="about">
+      <div class="about__information">
+        <div class="about__info">
+          <h1 class="info__title">Hola, soy Nataly</h1>
+          <p class="info__paragraph">estudiante de diseño grafico con experiencia en diseño editorial y diseño
+            UX/UI. Me gusta diseñar y crear proyectos que combinen la estetica y la funcionalidad para crear
+            muy buenas experiencias.</p>
+        </div>
+        <img class="about__image" src="./Imagenes/WhatsApp Image 2024-11-29 at 11.08.11 PM.jpeg" alt="">
+      </div>
+      <div class="tools">
+        <span class="tools__name">Herramientas que me ayudan a crear</span>
+        <div class="tools__icons">
+          <img class="icon__3d-max" src="./Imagenes/image 5.png" alt="3d max">
+          <img class="icon__photoshop" src="./Imagenes/3d max.png" alt="photoshop">
+          <img class="icon__indesing" src="./Imagenes/Indesing.png" alt="indesing">
+          <img class="icon__illustrator" src="./Imagenes/Illustrator.png" alt="illustrator">
+          <img class="icon__figma" src="./Imagenes/Figma.png" alt="figma">
+        </div>
+      </div>
+    </section>
+    <section id="Projects" class="projects">
+      <h1 class="projects__title">Mis proyectos</h1>
+      <div class="projects__container">
+        <div class="projects__item-top">
+          <div class="card">
+            <img class="card__image" src="./Imagenes/Cartel social (1).png" alt="Cartel social">
+            <div class="card__container">
+              <div class="container__text">
+                <h2 class="text__title">Cartel social</h2>
+                <div class="text__detalles">
+                  <img src="./Imagenes/3d max.png" alt="Photoshop" class="icon">
+                  <hr class="line" style="border: 1px solid #000;">
+                  <h3 class="detalles__subtitle">Adobe Photoshop</h3>
+                </div>
+              </div>
+              <div class="like-button">
+                <a class="icon-heart" onclick="cartelsocial()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.18-95.08-172.25-164.04Q193-395.67 152.67-450.17q-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.44 61.33-152.72 61.34-61.28 152-61.28 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.28Q880-731.44 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16-40.33 54.5-108.41 123.46-68.07 68.96-172.25 164.04l-46.67 42Zm0-88.66q99.49-90.67 163.75-155.5Q708-429.67 745.67-478.17q37.66-48.5 52.66-86.42t15-75.31q0-64.1-41.33-105.77-41.33-41.66-105.18-41.66-50.02 0-92.59 29.83-42.56 29.83-65.56 81.5h-58q-22.34-51-64.9-81.17-42.57-30.16-92.59-30.16-63.85 0-105.18 41.66-41.33 41.67-41.33 105.88 0 37.46 15 75.62 15 38.17 52.66 87Q252-428.33 316.67-363.83q64.66 64.5 163.33 154.5Zm0-289Z" />
+                  </svg>
+                </a>
+                <a class="icon-heart-lleno" id="heartcartelsocial" onclick="cartelsocial()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.33-95-172.33-164-68-69-108.33-123.5-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.33 61.33-152.67 61.34-61.33 152-61.33 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.33Q880-731.33 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16Q767-395.67 699-326.67t-172.33 164l-46.67 42Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__image" src="./Imagenes/Captura de pantalla 2024-12-05 163125.png" alt="Halloween">
+            <div class="card__container">
+              <div class="container__text">
+                <h2 class="text__title">Halloween set</h2>
+                <div class="text__detalles-2">
+                  <img src="./Imagenes/3d max.png" alt="Photoshop" class="icon">
+                  <hr class="line" style="border: 1px solid #000;">
+                  <h3 class="detalles__subtitle">Adobe Photoshop</h3>
+                </div>
+              </div>
+              <div class="like-button">
+                <a class="icon-heart" onclick="halloween()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.18-95.08-172.25-164.04Q193-395.67 152.67-450.17q-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.44 61.33-152.72 61.34-61.28 152-61.28 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.28Q880-731.44 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16-40.33 54.5-108.41 123.46-68.07 68.96-172.25 164.04l-46.67 42Zm0-88.66q99.49-90.67 163.75-155.5Q708-429.67 745.67-478.17q37.66-48.5 52.66-86.42t15-75.31q0-64.1-41.33-105.77-41.33-41.66-105.18-41.66-50.02 0-92.59 29.83-42.56 29.83-65.56 81.5h-58q-22.34-51-64.9-81.17-42.57-30.16-92.59-30.16-63.85 0-105.18 41.66-41.33 41.67-41.33 105.88 0 37.46 15 75.62 15 38.17 52.66 87Q252-428.33 316.67-363.83q64.66 64.5 163.33 154.5Zm0-289Z" />
+                  </svg>
+                </a>
+                <a class="icon-heart-lleno" id="hearthalloween" onclick="halloween()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.33-95-172.33-164-68-69-108.33-123.5-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.33 61.33-152.67 61.34-61.33 152-61.33 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.33Q880-731.33 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16Q767-395.67 699-326.67t-172.33 164l-46.67 42Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__image" src="./Imagenes/Summer camp.jpg" alt="Summer camp">
+            <div class="card__container">
+              <div class="container__text">
+                <h2 class="text__title">Campamento</h2>
+                <div class="text__detalles-3">
+                  <img src="./Imagenes/image 5.png" alt="3d Max" class="icon">
+                  <hr class="line" style="border: 1px solid #000;">
+                  <h3 class="detalles__subtitle">3d max</h3>
+                </div>
+              </div>
+              <div class="like-button">
+                <a class="icon-heart" onclick="campamento()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.18-95.08-172.25-164.04Q193-395.67 152.67-450.17q-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.44 61.33-152.72 61.34-61.28 152-61.28 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.28Q880-731.44 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16-40.33 54.5-108.41 123.46-68.07 68.96-172.25 164.04l-46.67 42Zm0-88.66q99.49-90.67 163.75-155.5Q708-429.67 745.67-478.17q37.66-48.5 52.66-86.42t15-75.31q0-64.1-41.33-105.77-41.33-41.66-105.18-41.66-50.02 0-92.59 29.83-42.56 29.83-65.56 81.5h-58q-22.34-51-64.9-81.17-42.57-30.16-92.59-30.16-63.85 0-105.18 41.66-41.33 41.67-41.33 105.88 0 37.46 15 75.62 15 38.17 52.66 87Q252-428.33 316.67-363.83q64.66 64.5 163.33 154.5Zm0-289Z" />
+                  </svg>
+                </a>
+                <a class="icon-heart-lleno" id="heartcampamento" onclick="camapamento()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.33-95-172.33-164-68-69-108.33-123.5-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.33 61.33-152.67 61.34-61.33 152-61.33 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.33Q880-731.33 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16Q767-395.67 699-326.67t-172.33 164l-46.67 42Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects__item-bottom">
+          <div class="card">
+            <img class="card__image" src="./Imagenes/Medellin.png" alt="Medellin">
+            <div class="card__container">
+              <div class="container__text">
+                <h2 class="text__title">City-Medellin</h2>
+                <div class="text__detalles-3">
+                  <img src="./Imagenes/3d max.png" alt="Photoshop" class="icon">
+                  <hr class="line" style="border: 1px solid #000;">
+                  <h3 class="detalles__subtitle">Adobe Photoshop</h3>
+                </div>
+              </div>
+              <div class="like-button">
+                <a class="icon-heart" onclick="LikeCity()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.18-95.08-172.25-164.04Q193-395.67 152.67-450.17q-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.44 61.33-152.72 61.34-61.28 152-61.28 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.28Q880-731.44 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16-40.33 54.5-108.41 123.46-68.07 68.96-172.25 164.04l-46.67 42Zm0-88.66q99.49-90.67 163.75-155.5Q708-429.67 745.67-478.17q37.66-48.5 52.66-86.42t15-75.31q0-64.1-41.33-105.77-41.33-41.66-105.18-41.66-50.02 0-92.59 29.83-42.56 29.83-65.56 81.5h-58q-22.34-51-64.9-81.17-42.57-30.16-92.59-30.16-63.85 0-105.18 41.66-41.33 41.67-41.33 105.88 0 37.46 15 75.62 15 38.17 52.66 87Q252-428.33 316.67-363.83q64.66 64.5 163.33 154.5Zm0-289Z" />
+                  </svg>
+                </a>
+                <a class="icon-heart-lleno" id="heartCity" onclick="LikeCity()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.33-95-172.33-164-68-69-108.33-123.5-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.33 61.33-152.67 61.34-61.33 152-61.33 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.33Q880-731.33 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16Q767-395.67 699-326.67t-172.33 164l-46.67 42Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__image" src="./Imagenes/PARCIAL 2 - SEMIOTICA SQUID GAME.jpg" alt="Posters">
+            <div class="card__container">
+              <div class="container__text">
+                <h2 class="text__title">Squid Game</h2>
+                <div class="text__detalles">
+                  <img src="./Imagenes/Illustrator.png" alt="Photoshop" class="icon">
+                  <hr class="line" style="border: 1px solid #000;">
+                  <h3 class="detalles__subtitle">Adobe Illustrator</h3>
+                </div>
+              </div>
+              <div class="like-button">
+                <a class="icon-heart" onclick="squidgame()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.18-95.08-172.25-164.04Q193-395.67 152.67-450.17q-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.44 61.33-152.72 61.34-61.28 152-61.28 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.28Q880-731.44 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16-40.33 54.5-108.41 123.46-68.07 68.96-172.25 164.04l-46.67 42Zm0-88.66q99.49-90.67 163.75-155.5Q708-429.67 745.67-478.17q37.66-48.5 52.66-86.42t15-75.31q0-64.1-41.33-105.77-41.33-41.66-105.18-41.66-50.02 0-92.59 29.83-42.56 29.83-65.56 81.5h-58q-22.34-51-64.9-81.17-42.57-30.16-92.59-30.16-63.85 0-105.18 41.66-41.33 41.67-41.33 105.88 0 37.46 15 75.62 15 38.17 52.66 87Q252-428.33 316.67-363.83q64.66 64.5 163.33 154.5Zm0-289Z" />
+                  </svg>
+                </a>
+                <a class="icon-heart-lleno" id="heartsquidgame" onclick="squidgame()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.33-95-172.33-164-68-69-108.33-123.5-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.33 61.33-152.67 61.34-61.33 152-61.33 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.33Q880-731.33 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16Q767-395.67 699-326.67t-172.33 164l-46.67 42Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card__image" src="./Imagenes/Pinocho.png" alt="Libro">
+            <div class="card__container">
+              <div class="container__text">
+                <h2 class="text__title">Libro Infantil</h2>
+                <div class="text__detalles">
+                  <img src="./Imagenes/Indesing.png" alt="Indesing" class="icon">
+                  <hr class="line" style="border: 1px solid #000;">
+                  <h3 class="detalles__subtitle">Adobe Indesing</h3>
+                </div>
+              </div>
+              <div class="like-button">
+                <a class="icon-heart" onclick="pinocho()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.18-95.08-172.25-164.04Q193-395.67 152.67-450.17q-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.44 61.33-152.72 61.34-61.28 152-61.28 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.28Q880-731.44 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16-40.33 54.5-108.41 123.46-68.07 68.96-172.25 164.04l-46.67 42Zm0-88.66q99.49-90.67 163.75-155.5Q708-429.67 745.67-478.17q37.66-48.5 52.66-86.42t15-75.31q0-64.1-41.33-105.77-41.33-41.66-105.18-41.66-50.02 0-92.59 29.83-42.56 29.83-65.56 81.5h-58q-22.34-51-64.9-81.17-42.57-30.16-92.59-30.16-63.85 0-105.18 41.66-41.33 41.67-41.33 105.88 0 37.46 15 75.62 15 38.17 52.66 87Q252-428.33 316.67-363.83q64.66 64.5 163.33 154.5Zm0-289Z" />
+                  </svg>
+                </a>
+                <a class="icon-heart-lleno" id="heartpinocho" onclick="pinocho()">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#D32E2b">
+                    <path
+                      d="m480-120.67-46.67-42q-104.33-95-172.33-164-68-69-108.33-123.5-40.34-54.5-56.5-99.16Q80-594 80-640q0-91.33 61.33-152.67 61.34-61.33 152-61.33 55.34 0 103.34 25.33 48 25.34 83.33 72.67 39.33-49.33 86.33-73.67 47-24.33 100.34-24.33 90.66 0 152 61.33Q880-731.33 880-640q0 46-16.17 90.67-16.16 44.66-56.5 99.16Q767-395.67 699-326.67t-172.33 164l-46.67 42Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contact" class="contact">
+      <p class="contact__text">¿Tienes un proyecto en mente o quieres saber más sobre mi trabajo? ¡Hablemos!.
+        Estaré encantada de escucharte.</p>
+      <div class="contact__mensaje">
+        <span class="mensaje">Gracias por explorar mi portafolio.</span>
+        <div class="contact__icons">
+          <a href="https://www.instagram.com/natalyvillalba_?igsh=MW9kaDE0NzJ5aW5iMw==" class="instagram-link"
+            target="_blank" rel="noopener">
+            <img src="./Imagenes/icon-instagram.png" alt="Instagram" class="icon__instagram">
+          </a>
+          <a href="https://wa.me/573113396805" class="whatsapp-link" target="_blank" rel="noopener">
+            <img src="./Imagenes/icon-whatsapp.png" alt="WhatsApp" class="icon__whatsapp">
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=natalyvillalba91@gmail.com" class="gmail-link"
+            target="_blank" rel="noopener">
+            <img src="./Imagenes/icon-gmail.png" alt="Gmail" class="icon__gmail">
+          </a>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/fuction.js"></script>
+</body>
+
+</html>
